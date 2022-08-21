@@ -1,8 +1,7 @@
-{"UBL" : {
-    "A": "UBR",
-    "B": "URF",
-    "C": "UFL",
-    "D": "ULB",
+{"ULB" : {
+    "B": "UBR",
+    "C": "URF",
+    "D": "UFL",
     "E": "FLU",
     "F": "FUR",
     "G": "FRD",
@@ -12,15 +11,16 @@
     "K": "RBD",
     "L": "RDF",
     "M": "BRU",
-    "N": "BUL",
     "O": "BLD",
     "P": "BDR",
-    "Z": "LBU",
+    "A": "LBU",
     "R": "LUF",
     "S": "LFD",
     "T": "LDB",
     "U": "DLF",
     "V": "DFR",
     "W": "DRB",
-    "Y": "DBL"
+    "Y": "DBL",
+    "N": "DBL",
+    "Z": "DBL"
 }}
