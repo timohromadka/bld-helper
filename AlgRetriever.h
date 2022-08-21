@@ -8,6 +8,8 @@ using std::string;
 #include <vector>
 using std::vector; 
 
+#include "json.h"
+
 class AlgRetriever {
 
 
@@ -28,14 +30,14 @@ public:
     }
 
     string getCornerAlg(string & letterPair) const {
-
+        std::ifstream file_input("NotationCorners.json");
+        Json::Reader reader;
+        Json::Value root;
+        reader.parse(file_input, root);
+        cout << root;
     }
 
     string getEdgeAlg(string & letterPair) const {
-
-    }
-
-    string getCell(string & pos1, string & pos2) {
 
     }
         
